@@ -11,7 +11,7 @@ for i in slova:
     bykva_last.append(i[-1])
 for k in range (0,len(bykva_last)):
     j = bykva_last[k].upper()
-    bykva_last.insert(k,j)
+    bykva_last.insert(k, j)
     bykva_last.pop(k + 1)
 if len(bykva_last) != 1:
     for i in range(1,len(slova)):
@@ -38,6 +38,7 @@ if len(bykva_last) != 1:
             print('Победил Петя')
 else:
     print('Вася не назвал слово')
+
 
 
 
